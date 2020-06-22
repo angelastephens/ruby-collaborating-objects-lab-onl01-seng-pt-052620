@@ -25,7 +25,6 @@ class Song
     binding.pry
     song = filename.chomp(".mp3").split(" - ")
     self.new(song[1])
-    song
   end
   
   
