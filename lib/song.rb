@@ -20,6 +20,7 @@ class Song
   end
   
   def Song.new_by_filename
-    
+  
+  end
   
 end
