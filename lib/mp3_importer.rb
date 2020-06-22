@@ -8,7 +8,7 @@ class MP3Importer
   
   
   def files
-    
+    Dir.entries("your/folder").select {|f| File.file? f}
     
   end
   
