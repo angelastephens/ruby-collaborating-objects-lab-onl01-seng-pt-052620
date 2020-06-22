@@ -19,10 +19,6 @@ class Song
    self.artist =Artist.find_or_create_by_name(name)
   end
   
-  def  def self.new_by_filename(filename)
-    song = self.new
-    song.title = filename.split(" - ")[1]
-    song
-  end
+  
   
 end
